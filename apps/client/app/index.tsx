@@ -7,12 +7,12 @@ export default function Index() {
 
   const handleSignUp = () => {
     console.log('User App 회원가입 이동');
-    router.push('/');
+    router.push('/signup');
   };
 
   const handleSignIn = () => {
     console.log('User App 로그인 이동');
-    router.push('/');
+    router.push('/signin');
   };
 
   return (
